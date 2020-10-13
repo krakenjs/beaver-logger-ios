@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		237A928D253533B600D35623 /* logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237A928C253533B600D35623 /* logger.swift */; };
+		237A9295253533D000D35623 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237A9294253533D000D35623 /* util.swift */; };
+		237A9298253533E200D35623 /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237A9297253533E200D35623 /* types.swift */; };
+		237A929B253533F100D35623 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237A929A253533F100D35623 /* config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		237A9289253533B600D35623 /* liblogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		237A928C253533B600D35623 /* logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logger.swift; sourceTree = "<group>"; };
+		237A9294253533D000D35623 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		237A9297253533E200D35623 /* types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
+		237A929A253533F100D35623 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				237A928C253533B600D35623 /* logger.swift */,
+				237A9294253533D000D35623 /* util.swift */,
+				237A9297253533E200D35623 /* types.swift */,
+				237A929A253533F100D35623 /* config.swift */,
 			);
 			path = logger;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237A9298253533E200D35623 /* types.swift in Sources */,
+				237A929B253533F100D35623 /* config.swift in Sources */,
 				237A928D253533B600D35623 /* logger.swift in Sources */,
+				237A9295253533D000D35623 /* util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
